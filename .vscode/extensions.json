@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",           // De onmisbare Python basis
+        "ms-toolsai.jupyter",         // Voor je Shift+Enter workflow
+        "ms-vscode-remote.remote-wsl", // Om Windows en Linux te laten praten
+        "ms-python.vscode-pylance",    // Voor slimme code-aanvullingen
+        "njpwerner.autodocstring",     // Voor snelle documentatie (bespaart typen!)
+        "mechatroner.rainbow-csv"      // Handig voor het bekijken van datasets later
+    ]
+}
