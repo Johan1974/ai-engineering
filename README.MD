@@ -12,7 +12,9 @@ Persoonlijk leerplan en voortgangslog voor mijn traject naar AI Engineer.
 - [x] DataCamp `dictionaries-pandas` [ex16](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=16) — `exercises/DataCamp/square_brackets_2.py`
 - [x] DataCamp `dictionaries-pandas` [ex17](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=17) — `exercises/DataCamp/loc_and_iloc_1.py`
 - [x] DataCamp `dictionaries-pandas` [ex18](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=18) — `exercises/DataCamp/loc_and_iloc_2.py`
-- [ ] **Volgende stap:** in DataCamp de oefening na [ex18](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=18) openen en hier een nieuw `snake_case.py` in `exercises/DataCamp/` voor aanmaken
+- [x] DataCamp `dictionaries-pandas` [ex19](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=19) — `exercises/DataCamp/loc_and_iloc_3.py`
+- [x] **Hoofdstuk af:** [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas) (Intermediate Python)
+- [ ] **Volgende stap:** in DataCamp het **volgende hoofdstuk** na *Dictionaries & Pandas* openen in [Intermediate Python](https://www.datacamp.com/courses/intermediate-python); nieuwe oefeningen in een aparte submap of nieuwe bestandsnamen afstemmen op dat hoofdstuk
 
 ---
 
@@ -26,6 +28,8 @@ Persoonlijk leerplan en voortgangslog voor mijn traject naar AI Engineer.
 - [x] ex16 - rijen slicen met `[]` — `square_brackets_2.py`
 - [x] ex17 - `loc` en `iloc` — `loc_and_iloc_1.py`
 - [x] ex18 - `loc` met rijen én kolommen — `loc_and_iloc_2.py`
+- [x] ex19 - `loc` met `:` (alle rijen) en kolommen — `loc_and_iloc_3.py`
+- [x] **Hoofdstuk** — Dictionaries & Pandas afgerond
 
 ### Professional Code (na Intermediate Python)
 - [ ] Start Python Programming Track (OOP)
@@ -92,7 +96,7 @@ Na elke **3 afgeronde oefeningen** voert de assistent een korte analyse uit op b
 ### Ritme en trigger
 - [x] Evaluatie 1 na ex11-ex13 (afgerond)
 - [x] Evaluatie 2 na ex14-ex17 (afgerond — zie logboek)
-- [ ] Evaluatie 3 na de volgende 3 oefeningen
+- [x] Evaluatie 3 na ex18–ex19 + afronding hoofdstuk (zie logboek)
 
 ### Strategische evaluatie - huidig besluit
 - **DataCamp vs. Praktijk:** basisconcepten zitten goed; na nog een paar pandas-oefeningen een mini-project toevoegen voor transfer naar praktijk.
@@ -113,6 +117,7 @@ cd /root/dev/ai-engineering/exercises/DataCamp
 ../../.venv/bin/python square_brackets_2.py
 ../../.venv/bin/python loc_and_iloc_1.py
 ../../.venv/bin/python loc_and_iloc_2.py
+../../.venv/bin/python loc_and_iloc_3.py
 ```
 *(Scripts verwachten `csv/cars.csv` relatief t.o.v. `exercises/DataCamp/`.)*
 
@@ -132,4 +137,5 @@ Als ik vraag: **"Wat is de volgende stap?"**, dan moet de assistent:
 - [2026-04-29] CSV import met `index_col=0` afgerond.
 - [2026-04-29] `square_brackets_1.py`, `square_brackets_2.py` (ex16), `loc_and_iloc_1.py` (ex17) afgerond; scripts gedraaid vanuit `exercises/DataCamp/` — exit code 0, `loc`/`iloc`-output matcht (JPN/AUS/EG).
 - [2026-04-29] **Evaluatie 2 (kort):** selecteren met `[]`, rij-slices en `loc`/`iloc` sluit aan op roadmap-doel; `GA DOOR met Intermediate Python`. Optioneel: Deep Dive Check op `loc` vs `iloc` bij volgende sessie als je dat wilt.
-- [2026-04-29] [ex18](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=18) — `loc_and_iloc_2.py`; script gedraaid — exit code 0 (MOR/`drives_right`, subframe RU+MOR). Richting **Evaluatie 3:** nog 2 oefeningen na ex18 tot de volgende blok-evaluatie.
+- [2026-04-29] [ex18](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=18) — `loc_and_iloc_2.py`; script gedraaid — exit code 0 (MOR/`drives_right`, subframe RU+MOR).
+- [2026-04-29] [ex19](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=19) — `loc_and_iloc_3.py`; script gedraaid — exit code 0 (`drives_right` als Series, als DataFrame, met `cars_per_cap`). **Hoofdstuk Dictionaries & Pandas af.** **Evaluatie 3 (kort):** `loc`-keten ex17→ex19 sluit logisch aan; `GA DOOR` naar het volgende hoofdstuk in [Intermediate Python](https://www.datacamp.com/courses/intermediate-python); optioneel mini-project wanneer je weer tabulaire data buiten DataCamp gebruikt.
