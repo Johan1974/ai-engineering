@@ -1,0 +1,8 @@
+{
+    "jupyter.jupyterServerType": "local",
+    "python.terminal.activateEnvInSelectedTerminal": true,
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "cursor.tab.enabled": false,
+    "editor.inlineSuggest.enabled": false
+}
