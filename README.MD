@@ -14,7 +14,7 @@ Persoonlijk leerplan en voortgangslog voor mijn traject naar AI Engineer.
 - [x] DataCamp `dictionaries-pandas` [ex18](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=18) — `exercises/DataCamp/loc_and_iloc_2.py`
 - [x] DataCamp `dictionaries-pandas` [ex19](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=19) — `exercises/DataCamp/loc_and_iloc_3.py`
 - [x] **Hoofdstuk af:** [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas) (Intermediate Python)
-- [ ] **Volgende stap:** in DataCamp het **volgende hoofdstuk** na *Dictionaries & Pandas* openen in [Intermediate Python](https://www.datacamp.com/courses/intermediate-python); nieuwe oefeningen in een aparte submap of nieuwe bestandsnamen afstemmen op dat hoofdstuk
+- [ ] **Actief hoofdstuk:** [Logic, Control Flow and Filtering](https://campus.datacamp.com/courses/intermediate-python/logic-control-flow-and-filtering) in [Intermediate Python](https://www.datacamp.com/courses/intermediate-python) — start bij [ex1 · Comparison Operators](https://campus.datacamp.com/courses/intermediate-python/logic-control-flow-and-filtering?ex=1); lokale scripts bijv. `exercises/DataCamp/logic_control_flow_1.py` (URL op regel 1 na goedkeuring DataCamp)
 
 ---
 
@@ -30,6 +30,9 @@ Persoonlijk leerplan en voortgangslog voor mijn traject naar AI Engineer.
 - [x] ex18 - `loc` met rijen én kolommen — `loc_and_iloc_2.py`
 - [x] ex19 - `loc` met `:` (alle rijen) en kolommen — `loc_and_iloc_3.py`
 - [x] **Hoofdstuk** — Dictionaries & Pandas afgerond
+
+### Intermediate Python - Logic, Control Flow and Filtering
+- [ ] [Hoofdstuk](https://campus.datacamp.com/courses/intermediate-python/logic-control-flow-and-filtering) — oefeningen ex1–ex18 (vink aan per afgeronde opdracht; bestandsnamen in `snake_case`, bijv. `logic_control_flow_1.py` voor ex1)
 
 ### Professional Code (na Intermediate Python)
 - [ ] Start Python Programming Track (OOP)
@@ -49,6 +52,7 @@ Persoonlijk leerplan en voortgangslog voor mijn traject naar AI Engineer.
 - [x] Na elke afgeronde opdracht: herinnering voor Git commit
 - [x] **Na elke “afgerond”-melding door jou:** de assistent voert een **korte verificatie** uit (`cd exercises/DataCamp` + script met project-`.venv` draaien), vat de output samen (geen volledige dump tenzij nodig), en werkt **Huidige Focus** + **checklist** + **logboek** in dit bestand bij — tenzij jij expliciet alleen commentaar zonder test vraagt.
 - [x] **DataCamp-URL na goedkeuring:** zodra DataCamp de oefening als correct heeft beoordeeld, zet jij de volledige campus-URL **bovenaan** in het bijbehorende `.py`-bestand (regel 1, als commentaar, zoals bij ex16/ex17). In de chat mag je diezelfde URL plakken wanneer je meldt dat iets af is — dan kan de assistent oefeningnummer en roadmap exact koppelen.
+- [x] **DataCamp-URL in de chat → assistent:** zodra jij een campus-URL (`campus.datacamp.com/...`) deelt, werkt de assistent het **bijbehorende** `.py`-bestand bij: **regel 1** = die volledige URL (ongewijzigd, inclusief querystring zoals `skip_variants_modal`), daarna eventueel `# exercises/...` en **Nederlandse uitleg in commentaarregels** (hoofdstuk, onderwerp van de oefening, concepten die de code illustreert). Gebruik daarbij `@pad/naar/bestand.py` of noem het bestand expliciet; zonder pad probeert de assistent te koppelen via oefening/hoofdstuk uit de URL. **No-Spoiler:** geen volledige modeloplossing of antwoordregels toevoegen tenzij jij daar expliciet om vraagt.
 
 Commit-formaat:
 ```bash
@@ -139,3 +143,4 @@ Als ik vraag: **"Wat is de volgende stap?"**, dan moet de assistent:
 - [2026-04-29] **Evaluatie 2 (kort):** selecteren met `[]`, rij-slices en `loc`/`iloc` sluit aan op roadmap-doel; `GA DOOR met Intermediate Python`. Optioneel: Deep Dive Check op `loc` vs `iloc` bij volgende sessie als je dat wilt.
 - [2026-04-29] [ex18](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=18) — `loc_and_iloc_2.py`; script gedraaid — exit code 0 (MOR/`drives_right`, subframe RU+MOR).
 - [2026-04-29] [ex19](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=19) — `loc_and_iloc_3.py`; script gedraaid — exit code 0 (`drives_right` als Series, als DataFrame, met `cars_per_cap`). **Hoofdstuk Dictionaries & Pandas af.** **Evaluatie 3 (kort):** `loc`-keten ex17→ex19 sluit logisch aan; `GA DOOR` naar het volgende hoofdstuk in [Intermediate Python](https://www.datacamp.com/courses/intermediate-python); optioneel mini-project wanneer je weer tabulaire data buiten DataCamp gebruikt.
+- [2026-04-29] Gestart met hoofdstuk **Logic, Control Flow and Filtering** (DataCamp-pad); zie *Huidige Focus* en nieuwe checklist-sectie.
